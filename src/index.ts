@@ -4,7 +4,7 @@ import { PrismaPg } from '@prisma/adapter-pg';
 import { Pool } from 'pg';
 
 // --- CONFIGURATION ---
-const connectionString = "postgresql://postgres:ToNKhaW2548@db.hrznfnylqxwpuaofxqkn.supabase.co:5432/postgres?pgbouncer=true";
+const connectionString = "postgresql://postgres:HIDDEN_PASSWORD@db.hrznfnylqxwpuaofxqkn.supabase.co:5432/postgres?pgbouncer=true";
 
 const pool = new Pool({ connectionString });
 const adapter = new PrismaPg(pool);
